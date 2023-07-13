@@ -6,8 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "echo running tests",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.+(js|jsx|ts|tsx|md|mdx|yml|yaml)": [
+      "npm run lint:fix"
+    ]
   },
   "dependencies": {
     "@types/node": "20.4.2",
@@ -31,6 +38,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^3.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
     "prettier": "^3.0.0"
   }
 }
