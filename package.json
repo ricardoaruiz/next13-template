@@ -9,6 +9,7 @@
     "test": "echo running tests",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
+    "typecheck": "tsc --project tsconfig.json --noEmit",
     "prepare": "husky install"
   },
   "lint-staged": {
