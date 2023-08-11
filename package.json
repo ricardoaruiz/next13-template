@@ -38,7 +38,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.6",
+    "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.6.6",
     "@swc/jest": "^0.2.26",
     "@testing-library/jest-dom": "^5.16.5",
