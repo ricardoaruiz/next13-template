@@ -43,7 +43,7 @@
     "@swc/jest": "^0.2.26",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.0.0",
     "commitizen": "^4.3.0",
     "eslint": "^8.44.0",
